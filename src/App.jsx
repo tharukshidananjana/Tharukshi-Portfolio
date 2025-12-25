@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Phone, ExternalLink, Award, Code, Database, ChevronRight, Briefcase, Download } from 'lucide-react';
-import profileImg from './assets/profile.jpg.jpg';
+import profileImg from './assets/profile.jpg';
 
 const App = () => {
   const skills = ["Python", "Pandas", "Machine Learning Basic", "Data Visualization", "Statistics", "Numpy"];
@@ -58,6 +58,7 @@ const App = () => {
       object-fit: cover;
       border: 4px solid #0f172a;
       background-color: #1e293b;
+      display: block; /* පින්තූරය නිවැරදිව පෙන්වීමට */
     }
 
     .grid-container { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; }
@@ -95,7 +96,8 @@ const App = () => {
       <header id="about" style={{ padding: '80px 20px', textAlign: 'center', background: 'radial-gradient(circle at center, #1e293b 0%, #0f172a 100%)' }}>
         <div className="profile-container">
           <div className="profile-glow">
-            <img src={profileImg} alt="Profile" className="profile-img" />
+            {/* මෙතැන src={profileImg} ලෙස පාවිච්චි කිරීමෙන් Vercel එකට පින්තූරය හඳුනාගත හැක */}
+            <img src={profileImg} alt="Tharukshi Dhananjana" className="profile-img" />
           </div>
         </div>
 
@@ -104,7 +106,6 @@ const App = () => {
           Undergraduate student specializing in BICT Honours, passionate about turning data into actionable insights and building intelligent systems.
         </p>
 
-        {/* Action Buttons with GitHub Link Included */}
         <div style={{ display: 'flex', justifyContent: 'center', gap: '15px', flexWrap: 'wrap' }}>
           <a href="#" className="hover-btn" style={{ backgroundColor: '#3b82f6', color: 'white', padding: '12px 25px', borderRadius: '8px', textDecoration: 'none', fontWeight: 'bold' }}>
             <Download size={18} /> Download CV
