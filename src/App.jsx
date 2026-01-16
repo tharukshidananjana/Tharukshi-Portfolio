@@ -22,11 +22,28 @@ const App = () => {
       link: "https://github.com/tharukshidananjana/University-course-Recommendation-System"
     },
     {
+      title: "🧠 AI-Powered Multilingual Sentiment Analysis Dashboard!",
+      desc: " A real-time sentiment analysis tool designed to bridge the gap in understanding customer emotions across different platforms",
+      tools: ["Python", "Pandas", "Streamlit"],
+      link: "https://github.com/tharukshidananjana/-Real-time-Mental-Health-Sentiment-Analysis/tree/master",
+      livelink:"https://real-time-mental-health-sentiment-analysis.streamlit.app/"
+    },
+    {
+      title: "Telco Churn Analyzer",
+      desc: "deployed a Machine Learning application that predicts customer retention for telecommunication companies",
+      tools: ["Python", "Pandas", "Streamlit","Numpy"],
+      link: " https://github.com/tharukshidananjana/Customer-Churn-Prediction",
+      livelink:"https://telco-churn-analyzer.streamlit.app/"
+    },
+
+    {
       title: "Ceromo Shop Web Platform",
       desc: "A responsive e-commerce interface focusing on user experience and clean UI/UX principles.",
       tools: ["HTML5", "CSS3", "JavaScript"],
       link: "https://github.com/tharukshidananjana/ceromo_shop_website/tree/main/Project/Project"
     }
+    
+    
   ];
 
   const customStyles = `
@@ -58,7 +75,7 @@ const App = () => {
       object-fit: cover;
       border: 4px solid #0f172a;
       background-color: #1e293b;
-      display: block; /* පින්තූරය නිවැරදිව පෙන්වීමට */
+      display: block; 
     }
 
     .grid-container { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; }
@@ -96,7 +113,7 @@ const App = () => {
       <header id="about" style={{ padding: '80px 20px', textAlign: 'center', background: 'radial-gradient(circle at center, #1e293b 0%, #0f172a 100%)' }}>
         <div className="profile-container">
           <div className="profile-glow">
-            {/* මෙතැන src={profileImg} ලෙස පාවිච්චි කිරීමෙන් Vercel එකට පින්තූරය හඳුනාගත හැක */}
+            { }
             <img src={profileImg} alt="Tharukshi Dhananjana" className="profile-img" />
           </div>
         </div>
