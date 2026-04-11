@@ -1,0 +1,92 @@
+/* General Global Settings */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a192f; /* Dark Navy Background */
+  color: #ccd6f6;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Navbar - Fixed at the top */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(10, 25, 47, 0.9); /* Semi-transparent effect */
+  backdrop-filter: blur(10px); /* Frosted glass look */
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+/* Main Content Section (Hero Section) */
+.hero-section {
+  padding-top: 150px; /* Space added to prevent Navbar overlap */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Profile Image Container - Circular with Glow */
+.profile-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #64ffda; /* Teal accent border */
+  box-shadow: 0 0 25px rgba(100, 255, 218, 0.5); /* Glow effect */
+  margin-bottom: 20px;
+}
+
+.profile-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image is not distorted */
+}
+
+/* Typography/Text Styling */
+h1 {
+  font-size: 3.5rem;
+  color: #e6f1ff;
+  margin: 10px 0;
+}
+
+p {
+  max-width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 auto 30px auto;
+}
+
+/* Buttons Styling */
+.buttons-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: 1px solid #64ffda;
+  border-radius: 5px;
+  color: #64ffda;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: rgba(100, 255, 218, 0.1);
+  transform: translateY(-3px); /* Subtle lift on hover */
+}
