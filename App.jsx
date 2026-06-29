@@ -30,7 +30,7 @@ const App = () => {
       livelink:"https://xai-tea-process-optimizer.streamlit.app/"
     },
     {
-      title: "University Recommendation System",
+      title: "🎓University Recommendation System",
       desc: "Developed a ranked recommendation engine using Z-Score algorithms to assist students in selecting the most suitable university courses based on preferences.",
       tools: ["Python", "Pandas", "Streamlit"],
       link: "https://github.com/tharukshidananjana/University-course-Recommendation-System"
