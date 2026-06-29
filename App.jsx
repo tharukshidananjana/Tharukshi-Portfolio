@@ -18,7 +18,7 @@ const App = () => {
     {
       title: "🌾Rice-Leaf-Disease-Detection",
       desc:  "An AI-powered agricultural platform built with TensorFlow and CNNs that achieves 86% accuracy in identifying 11 rice leaf diseases, offering farmers automated severity analysis, localized support maps, and actionable treatment insights via a multilingual Streamlit interface",
-      tools: ["Python","Streamlit","TensorFlow","Keras","OpenCV","NumPy","Folium"" Streamlit-Folium","gTTS"],
+      tools: ["Python","Streamlit","TensorFlow","Keras","OpenCV","NumPy","Folium"," Streamlit-Folium","gTTS"],
       link:  "https://github.com/tharukshidananjana/Rice-Leaf-Disease-Detection",
       livelink:" https://rice-leaf-disease-detection1.streamlit.app/"
     },
