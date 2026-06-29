@@ -16,6 +16,20 @@ const App = () => {
 
   const projects = [
     {
+      title: "🌾Rice-Leaf-Disease-Detection",
+      desc:  "An AI-powered agricultural platform built with TensorFlow and CNNs that achieves 86% accuracy in identifying 11 rice leaf diseases, offering farmers automated severity analysis, localized support maps, and actionable treatment insights via a multilingual Streamlit interface",
+      tools: ["Python","Streamlit","TensorFlow","Keras","OpenCV","NumPy","Folium"" Streamlit-Folium","gTTS"],
+      link:  "https://github.com/tharukshidananjana/Rice-Leaf-Disease-Detection",
+      livelink:" https://rice-leaf-disease-detection1.streamlit.app/"
+    },
+    {
+      title: "🍃XAI-Tea-Process-Optimizer",
+      desc: "Developed an end-to-end Machine Learning pipeline using XGBoost and SHAP to predict tea quality and visualize feature importance. Features a trilingual Streamlit dashboard to ensure localized accessibility for factory operators.",
+      tools: ["Python", "XGBoost","SHAP(XAI)","Streamlit"],
+      link: "https://github.com/tharukshidananjana/XAI-Tea-Process-Optimizer",
+      livelink:"https://xai-tea-process-optimizer.streamlit.app/"
+    },
+    {
       title: "University Recommendation System",
       desc: "Developed a ranked recommendation engine using Z-Score algorithms to assist students in selecting the most suitable university courses based on preferences.",
       tools: ["Python", "Pandas", "Streamlit"],
